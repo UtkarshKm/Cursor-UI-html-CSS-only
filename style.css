@@ -1,0 +1,154 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #14120b;
+	color: #ffffff;
+	font-family: "Century Gothic Paneuropean", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+	max-width: 68%;
+	margin: 8px auto;
+	margin-top: 10px;
+	font-size: medium;
+	
+}
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #14120B;
+	z-index: 10;
+	padding: 12px 0;
+}
+
+.nav-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 68%;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav-inner > div {
+	display: flex;
+	gap: 20px;
+}
+
+button {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 20px;
+}
+
+button {
+	padding: 4px 8px;
+}
+
+section {
+	max-width: 68%;
+	margin: 16px auto;
+}
+
+.cta {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	gap: 20px;
+	font-size: larger;
+}
+.cta button {
+	font-size: large;
+	font-weight: 400;
+	max-width: 250px;
+	padding: 10px ;
+	background-color: #D7D6D5;
+}
+
+.feature {
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: #1d1b15;
+	font-size: larger;
+}
+
+#showcase span {
+	background-color: #1b1913;
+	padding: 8px 16px;
+}
+
+#showcase > span {
+	min-width: 0;
+}
+
+#showcase {
+	display: flex;
+	/* here imges are going outside the width ! */
+	gap: 12px;
+}
+#showcase img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.wide {
+	grid-column: span 2;
+}
+
+.feature div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	line-height: 2.5rem;
+}
+
+.feature div {
+	padding: 20px;
+}
+
+#feat-img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+
+#feat-title {
+	color: #edecec;
+}
+#feat-p {
+	color: #9a9996;
+}
+#feat-main {
+	color: #f54e00;
+	font-size: medium;
+	margin-top: 8px;
+}
+
+.wide {
+	overflow: hidden;
+}
+
+.feature div span {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.feature div p {
+	font-size: 1.1rem;
+	line-height: 1.6;
+}
+
+.card {
+	margin: 100px auto;
+}
