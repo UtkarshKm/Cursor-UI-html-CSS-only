@@ -152,3 +152,39 @@ section {
 .card {
 	margin: 100px auto;
 }
+
+.feedback{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+
+	gap: 10px;
+
+}
+
+.feedback img{
+	max-width: 35px;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+
+.feedback-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 210px;
+	background-color: #1D1B15;
+		padding: 1rem 1rem ;
+		border-radius: 4px;
+}
+
+.feedback-person{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+
+.review{
+	border-color: #1B1913;
+}
